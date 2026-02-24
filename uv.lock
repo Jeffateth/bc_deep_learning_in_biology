@@ -232,7 +232,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.6.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "setuptools", specifier = "==81.0.0" },
-    { name = "tensorboard", specifier = ">=2.18.0" },
+    { name = "tensorboard", specifier = ">=2.20.0" },
     { name = "torch", specifier = ">=2.1.0" },
     { name = "torchaudio", specifier = ">=2.1.0" },
     { name = "torchvision", specifier = ">=0.16.0" },
