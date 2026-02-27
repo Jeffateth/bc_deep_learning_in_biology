@@ -1,32 +1,56 @@
+# ─────────────────────────────────────────
+# Jupyter
+# ─────────────────────────────────────────
 .ipynb_checkpoints/
 lightning_logs/
-lab4/data/
-lab4/facebook/
+
+# ─────────────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────────────
 venv/
 .venv/
 .env/
 
+# ─────────────────────────────────────────
+# Python build & cache
+# ─────────────────────────────────────────
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 *.so
 *.egg-info/
 build/
 dist/
 
-.DS_Store
+# ─────────────────────────────────────────
+# IDE
+# ─────────────────────────────────────────
 .vscode/
 .idea/
 
+# ─────────────────────────────────────────
+# macOS
+# ─────────────────────────────────────────
+.DS_Store
 
-project/project_data/
+# ─────────────────────────────────────────
+# Large data / generated artifacts
+# ─────────────────────────────────────────
+project/project_data/mega_train_embeddings/
+project/project_data/mega_val_embeddings/
+project/project_data/*.npy
+project/project_data/*.npz
 
+# ─────────────────────────────────────────
+# Model checkpoints
+# ─────────────────────────────────────────
+checkpoints*/
 *.pt
 *.pth
 *.ckpt
 *.h5
-*.npy
-*.npz
 
-=*
+# ─────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────
+runs/
+*.log

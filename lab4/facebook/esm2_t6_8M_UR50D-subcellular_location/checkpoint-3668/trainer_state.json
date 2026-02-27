@@ -1,0 +1,51 @@
+{
+  "best_global_step": 3668,
+  "best_metric": 0.8790228770841412,
+  "best_model_checkpoint": "facebook/esm2_t6_8M_UR50D-subcellular_location/checkpoint-3668",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 3668,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.05238686129450798,
+      "learning_rate": 1.68657487055463e-05,
+      "loss": 0.5808229269612186,
+      "step": 3668
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.8790228770841412,
+      "eval_f1_macro": 0.6371092753366724,
+      "eval_loss": 0.4990687966346741,
+      "eval_runtime": 95.29,
+      "eval_samples_per_second": 27.065,
+      "eval_steps_per_second": 27.065,
+      "step": 3668
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 11004,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 148258378146480.0,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}
