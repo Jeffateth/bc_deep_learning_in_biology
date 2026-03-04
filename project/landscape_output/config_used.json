@@ -1,0 +1,13 @@
+{
+  "train_csv": "project_data/algpred2_train_seq.csv",
+  "test_csv": "project_data/algpred2_test_seq.csv",
+  "ckpt_path": "ddg_best_20260227_142913.ptrom",
+  "out_dir": "landscape_output",
+  "max_positions_per_protein": 50,
+  "amino_acids": "ACDEFGHIKLMNPQRSTVWY",
+  "batch_size_mut": 128,
+  "thr_destab": 1.0,
+  "thr_neutral": 0.5,
+  "label_allergen": 1,
+  "label_non_allergen": 0
+}

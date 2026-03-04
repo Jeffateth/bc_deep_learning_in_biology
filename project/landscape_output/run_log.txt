@@ -1,0 +1,6 @@
+=== Run started 2026-03-04T11:19:41 | Device: mps ===
+Loaded model.
+Label distribution: {1: 10075, 0: 10075}
+=== Run started 2026-03-04T11:24:10 | Device: mps ===
+Loaded model.
+Label distribution: {1: 10075, 0: 10075}
