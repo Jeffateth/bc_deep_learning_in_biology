@@ -54,3 +54,10 @@ checkpoints*/
 # ─────────────────────────────────────────
 runs/
 *.log
+ΔΔG Prediction Pipeline_files/
+*.html
+.ipynb_checkpoints/
+lightning_logs/
+lab4/data/
+lab4/facebook/
+=*
